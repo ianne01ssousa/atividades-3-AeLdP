@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+int numero;
+int quadrado;
+int cubo;
+
+printf ("numero\tquadrado\tcubo\n");
+
+for (numero = 0; numero <= 10; numero++){
+    quadrado = numero * numero;
+    cubo = numero * numero * numero;
+    
+    printf ("%d\t    %d\t    \t%d\n", numero , quadrado, cubo);
+}
+
+    return 0;
+}
